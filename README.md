@@ -1,6 +1,6 @@
 ## Intelligent Browser Automation Platform with Local LLM Integration
 
-**Project Automata** is a browser automation platform that combines Playwright with locally running LLMs via Ollama. Users can execute complex web tasks using natural language instructions while all processing remains on their own infrastructure.
+Project Automata is a browser automation platform that combines Playwright with locally running LLMs via Ollama. Users can execute complex web tasks using natural language instructions while all processing remains on their own infrastructure.
 
 The platform consists of a Vue-based web terminal interface and a FastAPI backend that orchestrates an intelligent agent. The agent translates user requests into browser actions using the Model Context Protocol (MCP), enabling seamless interaction with web pages without requiring manual scripting.
 
@@ -18,9 +18,7 @@ The agent processes user prompts by sending them to the LLM along with available
 
 ## Key Capabilities
 
-The platform supports a wide range of browser automation tasks. Users can instruct the agent to navigate to any URL, click on elements using CSS selectors or XPath expressions, extract text content, fill forms, and retrieve page state information including screenshots. All interactions are handled through natural language, eliminating the need for manual scripting or complex configuration.
-
-The agent respects exact selectors provided in user prompts and executes them precisely. For exploratory tasks, it can discover interactive elements and text content on the page before deciding on appropriate actions.
+The platform supports a wide range of browser automation tasks. Users can instruct the agent to navigate to any URL, click on elements using CSS selectors or XPath expressions, extract text content, fill forms, and retrieve page state information. All interactions are handled through natural language, eliminating the need for manual scripting or complex configuration.
 
 Because the LLM runs locally through Ollama, all data remains on the user's machine. No browsing activity or page content is transmitted to external services.
 
@@ -37,7 +35,7 @@ cd project-automata
 
 The project contains two main directories:
 
-`mcp/` — Backend with Python FastAPI server, MCP client, and automation logic
+`mcp/` — Backend with Python FastAPI server, MCP server, and automation logic
 
 `cli/` — Frontend Vue 3 terminal interface
 
