@@ -37,7 +37,7 @@ export const commands: ICommands = {
         "#     – Use ↑/↓ arrows to navigate command history",
         "#     – Press Enter to execute commands",
         "#",
-        "#  © 2026 Project Automata",
+        "#  © 2026 Denis Tomskikh",
     ],
     info: [
         "#  ╔══════════════════════════════════════════════════════════╗",
@@ -101,7 +101,7 @@ export const commands: ICommands = {
         "#     – Email: tomskikh.denis@gmail.com",
         "#     – GitHub: https://github.com/whirlvoid",
         "#",
-        "#  © 2026 Project Automata",
+        "#  © 2026 Denis Tomskikh",
     ],
     clear: [""],
     main: [""],
