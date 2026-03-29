@@ -1,0 +1,15 @@
+.vscode/
+.idea/
+
+# mcp
+mcp/venv/
+mcp/__pycache__/
+mcp/.vscode/
+mcp/.idea/
+
+# cli
+cli/node_modules/
+cli/build/
+cli/.env
+cli/.vscode/
+cli/.idea/

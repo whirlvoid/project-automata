@@ -1,0 +1,16 @@
+export const head: string[] = [
+    "#                             ,d                                                   ,d                ",
+    "#                             88                                                   88                ",
+    "#  ,adPPYYba,  88       88  MM88MMM  ,adPPYba,   88,dPYba,,adPYba,   ,adPPYYba,  MM88MMM  ,adPPYYba, ",
+    '#  ""     `Y8  88       88    88    a8"     "8a  88P\'   "88"    "8a  ""     `Y8    88     ""     `Y8',
+    "#  ,adPPPPP88  88       88    88    8b       d8  88      88      88  ,adPPPPP88    88     ,adPPPPP88 ",
+    '#  88,    ,88  "8a,   ,a88    88,   "8a,   ,a8"  88      88      88  88,    ,88    88,    88,    ,88 ',
+    '#  `"8bbdP"Y8   `\"YbbdP\'Y8    \"Y888  `\"YbbdP\"\'   88      88      88  `\"8bbdP\"Y8    \"Y888  `\"8bbdP\"Y8 ',
+    " ",
+    " ",
+    "🧪 Welcome to Project Automata:",
+    "     – start with info to see to see information about the project;",
+    "     – use help to list the available commands.",
+    " ",
+    " ",
+];
